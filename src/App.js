@@ -14,7 +14,7 @@ const App = () => {
   const [selectedEmail, setSelectedEmail] = useState(null);
   const drawerStyle = {
     display: "grid",
-    gridTemplateColumns: showDrawer ? "30% 70%" : "100%",
+    gridTemplateColumns: showDrawer ? "40% 60%" : "100%",
     gridColumnGap: "20px"
   };
 
